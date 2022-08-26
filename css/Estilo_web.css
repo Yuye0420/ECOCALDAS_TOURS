@@ -1,0 +1,104 @@
+
+html{scroll-behavior: smooth;}
+
+body{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: justify;
+    font-family: cursive;
+    background: url(IMG/fondo3.jpg);
+    background-position: center;
+}
+
+
+
+.container_nav{
+background-color:#5AD1FB;
+height:120px;
+width: 1200px;
+position:fixed;
+top:0;
+}
+
+.container_nav nav{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+
+.container_nav nav a{
+    color:#7E3186;
+    font-family: cursive;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+}
+    
+
+.container_nav nav a:hover{
+    background-color:#EA6EBC;
+    border-radius: 4px;
+    color: #FCEBD3;
+}
+
+.contenedor{
+    margin-top: 150px;
+
+
+}
+.contenedor h1{
+    color:green;
+    font-family: cursive;
+    font-size: 33px;
+}
+
+.contenedor p{
+
+    font-family: cursive;
+    font-size: 17px;
+}
+
+.footer_container{
+   
+    position: absolute;
+    font-family:verdana;
+    width: 95%;
+    height:200px;
+    color:antiquewhite;
+    background-color:skyblue;
+    border-style: solid;
+    border-width: thick;
+    border-color:black;
+}
+
+.footer_container:hover{
+    background-color:transparent;
+    border-radius: 4px;
+    color:black;
+    font-family: sans-serif;
+    
+
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid green;
+    color: beige;
+    text-decoration:none;
+    background: green;
+    text-align: center;
+    
+}
+
+.btn:hover{
+    background-color:transparent;
+    border-radius: 4px;
+    color:black;        
+}
+
+
+
